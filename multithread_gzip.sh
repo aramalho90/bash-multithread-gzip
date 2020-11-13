@@ -1,16 +1,14 @@
 #!/bin/bash
-#
-#################################################################################################################
-#														                                                        #
-#	Author: André Ramalho											                                            #		
-#														                                                        #
-#	Usage: ./multithread_gzip.sh <DIR> <FILE_PATTERN> <NR_CORES> <LOG_DIR>                         				#
-#														                                                        #
-#	Description: This script will fork several gzip commands given a number of desired cores, a file pattern,   #
-#    the input directory and a log directory.									                                #                      #                                                                                                               #   
-#														                                                        #
-#														                                                        #
-#################################################################################################################
+###################################################################################################################														                                                        #
+#	Author: André Ramalho											  #		
+#														  #
+#	Usage: ./multithread_gzip.sh <DIR> <FILE_PATTERN> <NR_CORES> <LOG_DIR>                         		  #
+#														  #
+#	Description: This script will fork several gzip commands given a number of desired cores, a file pattern, #
+#    the input directory and a log directory.									  #                                                                                                               #   
+#														  #
+#														  #
+###################################################################################################################
 
 
 if [ $# -eq 0 ]; then
